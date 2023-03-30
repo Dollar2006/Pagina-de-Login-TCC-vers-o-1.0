@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <img src="Img/Background-Wabe.png" class="wave">
+    <div class="container">
+        <div class="img">
+            <img src="Img/undraw_lost_online_re_upmy.svg">
+        </div>
+        <div class="login-container">
+            <form action="index.html">
+                <img src="Img/undraw_people_re_8spw.svg" class="avatar">
+                <h2>Bem-Vindo!</h2>
+                <div class="input-div one" id="Input" onfocus="InserirClasse()" onblur="RemoverClasse()">
+                    <div class="i">
+                        <i class="fas fa-user" id="icone"></i>
+                    </div>
+                    <div>
+                        <h5 id="Placeholder">Usuário: </h5>
+                        <input class="input" type="text">
+                    </div>
+                </div>
+                <div class="input-div two" id="Input" onfocus="InserirClasse()" onblur="RemoverClasse()">
+                    <div class="i">
+                        <i class="fas fa-lock" id="icone"></i>
+                    </div>
+                    <div>
+                        <h5 id="Placeholder">Senha: </h5>
+                        <input class="input" type="password">
+                    </div>
+                </div>
+                <div class="Links">
+                    <a href="#">Esqueceu a senha?</a>
+                    <a href="cadastro.html">Não possui uma conta? <br>Crie uma agora!</a>
+                </div>
+                <input type="submit" class="btn" value="Login">
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
